@@ -38,11 +38,18 @@ export const projectsData: Project[] = [
         status: "Finalizado"
     },
     {
-        title: "Sistema de Autenticação",
-        description: "Sistema de autenticação que da acesso a uma dashboard, feito em Node.js e Angular com um Banco de dados em postgresql.",
-        link: "",
-        status: "Em Desenvolvimento"
+        title: "Sistema de Autenticação e Dashboard de Filmes PostgreSQL",
+        description: "Sistema de autenticação que da acesso a uma dashboard com uma lista de filmes, feito em Node e React com um Banco de dados em postgresql.",
+        link: "https://cinelistpostgresql.lucasmineiro.app/login",
+        status: "Finalizado"
     },
+    {
+        title: "Sistema de Autenticação e Dashboard de Filmes MongoDB",
+        description: "Sistema de autenticação que da acesso a uma dashboard com uma lista de filmes, feito em Node e React com um Banco de dados em Mongo.",
+        link: "https://cinelistmongo.lucasmineiro.app/login",
+        status: "Finalizado"
+    }
+    
 ];
 
 export const skillsData: Skill[] = [
